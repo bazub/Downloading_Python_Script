@@ -233,7 +233,10 @@ os.system('"PTVS%201.5%20Beta%201%20-%20PyKinect%20Sample.msi"');
 raw_input("Press Enter to open SetupTools 0.6c11")
 os.system('"setuptools-0.6c11.win32-py2.7.exe"');
 
+os.system('"SET Path=C:\Python27\Scripts"')
+
 raw_input("Press Enter to install the Python Egg")
 os.system('"easy_install pykinect-1.0-py2.7.egg"')
 
-raw_input("Press Enter to exit the script")
+raw_input("Press Enter to restart your PC")
+os.system('"shutdown /r /t 3"')
