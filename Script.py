@@ -8,7 +8,7 @@ url4 = "http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11.win32
 url5 = "http://pypi.python.org/packages/2.7/p/pykinect/pykinect-1.0-py2.7.egg"
 url6 = "https://dl.dropbox.com/u/101363146/PTVS%201.5%20Beta%201.msi"
 url7 = "https://dl.dropbox.com/u/101363146/PTVS%201.5%20Beta%201%20-%20PyKinect%20Sample.msi"
-url8 = "https://dl.dropbox.com/u/101363146/KinectSDK-v1.5-Setup.exe" 
+url8 = "http://sik.mide765.com/KinectSDK-v1.5-Setup.exe" 
 url9 = "https://dl.dropbox.com/u/101363146/KinectDeveloperToolkit-v1.5.2-Setup.exe"
 
 file_name = url.split('/')[-1]
@@ -232,3 +232,8 @@ os.system('"PTVS%201.5%20Beta%201%20-%20PyKinect%20Sample.msi"');
 
 raw_input("Press Enter to open SetupTools 0.6c11")
 os.system('"setuptools-0.6c11.win32-py2.7.exe"');
+
+raw_input("Press Enter to install the Python Egg")
+os.system('"easy_install pykinect-1.0-py2.7.egg"')
+
+raw_input("Press Enter to exit the script")
