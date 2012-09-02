@@ -6,3 +6,5 @@ PyKinect TT prerequisites automatic downloading python script
 Purpose
 -------
 The purpose of this script is to automatically download all the prerequisites needed for the PyKinect Technology Template
+
+UPDATE: The script is now designed to open the downloaded prerequisites one after the other in order to install them and also to restart your PC after the process.
